@@ -1,0 +1,16 @@
+﻿已經開始建置於 2017/12/12/週二 下午 03:01:26。
+     1>節點 2 (Build 目標) 上的專案 "C:\C_code\Lab3\Lab3\Lab3\Lab3.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\source\main.c
+         main.c
+     1>c:\c_code\lab3\source\main.c(19): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>c:\c_code\lab3\source\main.c(28): warning C4477: 'printf' : format string '%-8s' requires an argument of type 'char *', but variadic argument 3 has type 'int'
+     1>c:\c_code\lab3\source\main.c(35): warning C4477: 'printf' : format string '%-8s' requires an argument of type 'char *', but variadic argument 3 has type 'int'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C_code\Lab3\Lab3\Debug\Lab3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\C_code\Lab3\Lab3\Debug\Lab3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C_code\Lab3\Lab3\Debug\Lab3.lib" /MACHINE:X86 Debug\main.obj
+         Lab3.vcxproj -> C:\C_code\Lab3\Lab3\Debug\Lab3.exe
+     1>專案 "C:\C_code\Lab3\Lab3\Lab3\Lab3.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.39
